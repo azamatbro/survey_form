@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-image: linear-gradient( 115deg, rgba(57, 57, 189, 0.8), rgba(43, 43, 196, 0.7) ), 
+        url(survey.jpg);
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+form {
+    background-color: #1b1b32;
+    border-radius: 4px;
+    display: block;
+    align-items: center;
+    width: 740px;
+    padding: 20px;
+}
+main { 
+    width: 100%;
+    margin: 20px 0 auto ;
+    display: grid;
+    justify-content: center;
+}
+.header {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.header h2 {
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.header span {
+    background-color: navy;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.header p {
+    font-weight: 200;
+    font-size: 20px;
+    font-style: italic;
+}
+div {
+    display: block;
+}
+.subform label{
+    display: block;
+    margin: 10px;
+}
+.subform {
+    margin: 20px;
+}
+label , .checking p {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+.checking label  {
+    display: inline-block;
+}
+input[type="text"],input[type="number"], input[type="email"], select{
+    padding: 8px;
+    width: 100%;
+    height: 35px;
+    font-size: inherit;
+    border-radius: 5px;
+    outline: none;
+}
+option {
+    font-size: 17px;
+}
+input[type="radio"],input[type="checkbox"] {
+    font-size: inherit;
+    size: 20px;
+    accent-color: blue;
+    outline: none;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px auto;
+}
+button {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    background-color: rgb(78, 155, 78);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+input:focus {
+   outline: 2px solid blue;
+}
